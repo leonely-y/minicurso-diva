@@ -1,0 +1,46 @@
+:root {
+    --black: #000000;
+    --magenta: #7a0c7a;
+    --white: #ffffff;
+    --marine: #043566;
+    --red: #960b0bd5;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: var(--marine);
+    color: var(--texto);
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: Arial, sans-serif;
+    color: var(--white);
+}
+a {
+    text-decoration: underline;
+    color: var(--white);
+}
+a:hover {
+    color: var(--white);
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    gap: 25px; 
+}
+
+.card {
+    width: 220px;
+    padding: 20px;
+    background-color: var(--magenta);
+    border-radius: 20px;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 30px; 
+}
